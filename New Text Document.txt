@@ -1,0 +1,29 @@
+__EOF__
+chmod 600 ~/.ssh/config ~/.ssh/id_sf-8lgm-segfault-net
+######################################################################
+Thereafter use these commands:
+--> ssh  exoticwrap
+--> sftp exoticwrap
+--> scp  exoticwrap:stuff.tar.gz ~/
+--> sshfs -o reconnect exoticwrap:/sec ~/sec 
+----------------------------------------------------------------------
+Token             : No See https://thc.org/segfault/token
+Your workstation  : 14.191.105.207  (Gia Nghia/Vietnam)
+Reverse Port      : Type curl sf/port for reverse port.
+Exit CryptoStorm  : 217.138.219.220 (Milan)
+Exit Mullvad      : 45.134.212.78   (Warsaw/Poland)
+TOR Proxy         : 172.20.0.111:9050
+Shared storage    : /everyone/ExoticWrap       (encrypted)
+Your storage      : /sec                       (encrypted)
+Your Onion WWW    : /onion                     (encrypted)
+Your Web Page     : http://senpjoekkf4hlth6ej5lyqoizi62ois6u44zpd5vucuzo3w4sz4tw3qd.onion/exoticwrap/
+SSH               : ssh -o "SetEnv SECRET=yg1mSPDsUXLQEg0QOBWVb6it" \ 
+                       root@8lgm.segfault.net
+SSH (TOR)         : torsocks ssh -o "SetEnv SECRET=yg1mSPDsUXLQEg0QOBWVb6it" \ 
+                       root@smkfy2yrzwevzrsbjvmsobse3yiyipulkxn7uwr7zdykebktkotyanad.onion
+SSH (gsocket)     : gsocket -s OTVkOGENmFjM ssh -o "SetEnv SECRET=yg1mSPDsUXLQEg0QOBWVb6it" \ 
+                       root@8lgm.segfault.gsocket
+SECRET            : yg1mSPDsUXLQEg0QOBWVb6it <<<  WRITE THIS DOWN  <<<
+┌──(root💀8lgm-ExoticWrap)-[~]
+└─# 
+                            
